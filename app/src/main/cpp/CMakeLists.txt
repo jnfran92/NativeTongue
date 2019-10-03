@@ -34,9 +34,6 @@ find_library( # Sets the name of the path variable.
         # you want CMake to locate.
         log)
 
-#find_package(ndk-stl REQUIRED)
-# Copy shared libs
-include(ndk-stl-config.cmake)
 
 # Specifies libraries CMake should link to your target library. You
 # can link multiple libraries, such as libraries you define in this
